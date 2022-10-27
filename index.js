@@ -7,7 +7,7 @@ const fs = require("fs");
 const Manager = require("./jobs/manager.js");
 const Engineer = require("./jobs/engineer.js");
 const Intern = requre("./jobs/intern.js");
-const Employee = require("./jobs/employee.js");
+const employee = require("./jobs/employee.js");
 const { default: inquirer } = require("inquirer");
 
 const jobsArray = [];
