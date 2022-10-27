@@ -4,9 +4,9 @@ const Jest = require("jest");
 const fs = require("fs");
 
 // jobs
-const Manager = require("./jobs/manager.js");
-const Engineer = require("./jobs/engineer.js");
-const Intern = requre("./jobs/intern.js");
+const manager = require("./jobs/manager.js");
+const engineer = require("./jobs/engineer.js");
+const intern = requre("./jobs/intern.js");
 const employee = require("./jobs/employee.js");
 const { default: inquirer } = require("inquirer");
 
